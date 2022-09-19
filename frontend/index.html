@@ -8,6 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="sectionOne">
+        <div>
+            <h1>Item Lister</h1>
+        </div>
+    </section>
+    <section class="sectionTwo">
+        <div class="container">
+            <h1>Add Items</h1>
+            <!-- <form name="addItem" method="post"> -->
+                <div>
+                <input id="userInput" type="text" name="item" required>
+                <input type="button" value="Submit" id="submitButton" onclick="addItem()">
+                </div>
+                <!-- </form> -->
+            <h1>Items</h1>
+            <list>
+                <ul id="list">
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ul>
+            </list>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>

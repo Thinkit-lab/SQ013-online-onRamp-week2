@@ -1,0 +1,40 @@
+.sectionOne{
+    background-color: green;
+    padding: 20px 0px 20px 100px;
+}
+.sectionOne h1{
+    color: white;
+    font-size: 16;
+}
+.sectionTwo{
+    padding: 20px 100px 20px 100px;
+}
+.container{
+    border-width: 0.5px;
+    border-style: solid;
+    /* border-radius: 20px; */
+    border-color:gray;
+    padding: 10px 20px;
+}
+.sectionTwo h1{
+    font-size: 16;
+}
+#submitButton{
+    background-color: black;
+    color: white;
+    height: 25px;
+}
+.sectionTwo ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.sectionTwo li{
+    border-width: 0.5px;
+    border-style: solid;
+    height: 40px;
+    border-color:gray;
+    padding: 15px 0px 0px 10px;
+}
+.container input{
+    height: 20px;
+}
